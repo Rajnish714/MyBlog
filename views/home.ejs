@@ -1,0 +1,28 @@
+<%- include("partials/header") -%>
+
+
+    <h1>
+        <%= navlist %>
+    </h1>
+    <p>
+        <%= pGraph %>
+    </p>
+
+
+
+    <% posts.forEach(function(post){ %>
+        <h2>
+            <%= post.title %>
+        </h2>
+
+        <p>
+            <%= post.content.substring(0, 100) + "..." %>
+                <a href="/posts/<%=post.title%>">Read more</a>
+        </p>
+
+        1
+        <% }) %>
+
+            </div>
+
+            <%- include("partials/footer") -%>
