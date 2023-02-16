@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rajnish714/Blog-post.git"
+    "url": "git+https://github.com/Rajnish714/MyBlog.git"
   },
   "author": "Rajnish",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rajnish714/Blog-post/issues"
+    "url": "https://github.com/Rajnish714/MyBlog/issues"
   },
-  "homepage": "https://github.com/Rajnish714/Blog-post#readme",
+  "homepage": "https://github.com/Rajnish714/MyBlog#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
