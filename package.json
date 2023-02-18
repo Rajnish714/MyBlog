@@ -24,5 +24,6 @@
     "node": "^19.3.0",
     "request": "^2.88.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "keywords": []
 }
