@@ -52,15 +52,14 @@ app.post("/compose", (req, res) => {
     title: req.body.title,
     content: req.body.item,
   });
-  PostData.insertMany(item, (err) => {
+  item.save((err) => {
     if (err) {
       console.log(err);
     } else {
       console.log("data inserted successfully");
+      res.redirect("/");
     }
   });
-
-  res.redirect("/");
 });
 
 app.get("/posts/:postTitle", (req, res) => {
